@@ -4,7 +4,7 @@
 
 The Edgeberry **Sense'n'Drive Hardware Cartridge** expands your project's capabilities with 6 digital outputs and an I²C sensor port.
 
-The Raspberry Pi's I²C bus is levelshifted to 5V, enabeling compatibility with a wide range of peripheral components. The bus is routed to a 4P-2.0mm D90 connector, compatible with the Grove standard.
+The Raspberry Pi's I²C bus is levelshifted to 5V, enabling compatibility with a wide range of peripheral components. The bus is routed to a 4P-2.0mm D90 connector, compatible with the Grove standard.
 
 The digital outputs are P-channel MOSFETs configured for sourcing. An external power source can be applied to drive the digital outputs, or the base board's power source can be used by internally wiring the dedicated connectors.
 
