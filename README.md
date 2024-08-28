@@ -12,6 +12,14 @@ The digital outputs are P-channel MOSFETs configured for sourcing. An external p
 
 ## Usage
 ### I²C
+Enable the I²C port using `raspi-config`:
+```
+$ sudo raspi-config
+> 3     Interface options
+> I5    I2C
+> Enable
+```
+Now you can use the I²C interface `/dev/i2c-1` for connecting peripheral components.
 
 ### Digital Outputs
 The digital outputs are connected as following:
