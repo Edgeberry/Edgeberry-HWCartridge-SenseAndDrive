@@ -2,7 +2,7 @@
 
 <img src="documentation/SenseAndDrive_Cartridge.png" align="right" width="50%"/>
 
-The Edgeberry **Sense'n'Drive Hardware Cartridge** is...
+The Edgeberry **Sense'n'Drive Hardware Cartridge** expands your project's capabilities with 6 digital outputs and an I2C sensor port.
 
 <br clear="right"/>
 
