@@ -10,6 +10,25 @@ The digital outputs are P-channel MOSFETs configured for sourcing. An external p
 
 <br clear="right"/>
 
+## Usage
+### I²C
+
+### Digital Outputs
+The digital outputs are connected as following:
+|  GPIO  | OUTPUT |
+|--------|--------|
+| GPIO21 | D1     |
+| GPIO20 | D2     |
+| GPIO16 | D3     |
+| GPIO13 | D4     |
+| GPIO12 | D5     |
+| GPIO18 | D6     |
+
+Controling the digital outputs can be done from the commandline using `pinctrl`.
+```
+pinctrl set 21 op hi
+```
+
 ## License & Collaboration
 **Copyright© 2024 Sanne 'SpuQ' Santens**. This project is released under the **CERN OHL-W** license. The [Rules & Guidelines](https://github.com/Edgeberry/.github/blob/main/brand/Edgeberry_Trademark_Rules_and_Guidelines.md) apply to the usage of the Edgeberry™ brand.
 
