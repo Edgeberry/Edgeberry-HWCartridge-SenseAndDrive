@@ -34,8 +34,9 @@ The digital outputs are connected as following:
 
 Controling the digital outputs can be done from the commandline using `pinctrl`.
 ```
-pinctrl set 21 op hi
+pinctrl set 21 op dh
 ```
+**'op' meaning 'output', 'dh' digital high, 'dl' digital low.*
 
 ## License & Collaboration
 **Copyright© 2024 Sanne 'SpuQ' Santens**. This project is released under the **CERN OHL-W** license. The [Rules & Guidelines](https://github.com/Edgeberry/.github/blob/main/brand/Edgeberry_Trademark_Rules_and_Guidelines.md) apply to the usage of the Edgeberry™ brand.
