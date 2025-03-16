@@ -3,3 +3,6 @@ datasheets/
 Edgeberry_SenseAndDrive_Cartridge.kicad_prl
 manufacturing/
 Edgeberry_SenseAndDrive_Cartridge-backups/
+documentation/*.pdf
+*.step
+*.FCBak
